@@ -1,0 +1,48 @@
+<div class="login-screen">
+    <div class="main-class">
+        <div class="login-left text-center">
+            <img class="logoimg" src="../assets/images/logo.png" />
+            <h1>Welcome to the Customer Portal</h1>
+            <img class="mainimg" id="covered-img" src="../assets/images/login-img.png" />
+        </div>
+    </div>
+    <div class="main-class">
+        <div class="login-right">
+            <div class="signin-box">
+                <button class="close"><img src="../assets/images/close.png" alt="close" /></button>
+                <h3 class="text-centre">Sign In</h3>
+                <!-- <div>
+
+                </div> -->
+                <form class="example-form">
+                    <mat-form-field class="example-full-width">
+                        <mat-label>User Name</mat-label>
+                        <input matInput type="text" [(ngModel)]="value">
+                        <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear"
+                            (click)="value=''">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                    </mat-form-field>
+                    <br />
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Password</mat-label>
+                        <input matInput type="text" [(ngModel)]="value">
+                        <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear"
+                            (click)="value=''">
+                            <mat-icon>close</mat-icon>
+                        </button>
+                    </mat-form-field>
+                    <br />
+                    <a class="text-right">forgot password ?</a>
+                    <br />
+                    <div class="overall">
+                        <span class="text-left">
+                            Not a user? <span class="text-design"> Sign up </span>
+                            <button class="login-button" mat-raised-button color="primary">Log In</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

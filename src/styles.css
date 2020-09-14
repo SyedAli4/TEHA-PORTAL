@@ -1,1 +1,137 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/************************/
+.image-alignment {
+    text-align: center;
+}
+.main-class {
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  
+.p-0{
+    padding:0px !important;
+}
+
+.login-left{
+    text-align:center;
+}
+
+.login-left h1{
+    font-weight:bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    color: #00A253;
+    margin-bottom:30px;
+}
+
+.login-left .logoimg{
+    margin-top:22%;
+    /* margin-bottom:65px; */
+}
+.login-left .mainimg{
+    /* margin-top:150px;
+    margin-bottom:65px; */
+    width: 100%;
+    height:50%;
+}
+
+.login-right {
+    height: 100vh;
+    background: #00C95D;
+    box-shadow: -5px 0px 20px rgba(128, 128, 128, 0.25);
+    border-radius: 10px 0px 0px 10px;
+}
+#covered-image{
+widows: 40%;
+}
+.signin-box{
+      /* width: auto;
+      position: absolute;
+    text-align: center;
+    background-color: white;
+    top: 40%;
+    height: 200px;
+    left: 60%;   */
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    width: 36%;
+    top: 40%;
+    height: 36%;
+    left: 60%;
+}
+.signin-box h3{
+    font-weight:bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    color: #00A253;
+    margin-bottom:30px;
+}
+.text-left{
+    position: relative;
+    text-align: left !important;
+    display: block;
+}
+.text-design{
+    /* font-weight:bold;
+    font-size: 36px; */
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    color: #00A253;
+    margin-bottom:30px;
+}
+.input-field{
+    position: absolute ;
+    width: auto !important;
+}
+.close{
+    margin-right: -87%;
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 70%;
+  }
+  
+  td {
+    padding-right: 2px;
+  }
+
+  .text-right{
+    position: relative;
+    text-align: right !important;
+    display: block;
+  }
+
+  .overall{
+      display: inline;
+  }
+
+  .login-button{
+    margin-left: 47%;
+  }
+
+  .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
